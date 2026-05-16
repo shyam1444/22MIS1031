@@ -1,10 +1,6 @@
-﻿# Ignore node modules everywhere\r\nnode_modules/\r\n**/node_modules/\r\n# Logs
-*.log
-# Environment
+﻿*.log
 .env
-# OS files
 .DS_Store
 Thumbs.db
-# Lockfiles if you don't want them
 # package-lock.json
 
