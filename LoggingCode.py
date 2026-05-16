@@ -1,14 +1,14 @@
 import requests
 
-url = ""
+url = "http://4.224.186.213/evaluation-service/auth"
 
 payload = {
     "email": "shyam.venkatraman2022@vitstudent.ac.in",  
     "name": "Shyam",          
     "rollNo": "22MIS1031 ",
-    "accessCode": "",
-    "clientID": "",
-    "clientSecret": ""
+    "accessCode": "SfFuWg",
+    "clientID": "4679c8ca-46db-473d-9f70-03e77c843253",
+    "clientSecret": "GMFataKAHMPzWtnb"
 }
 
 response = requests.post(url, json=payload)
