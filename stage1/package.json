@@ -1,0 +1,9 @@
+{
+  "name": "afford-stage1",
+  "version": "1.0.0",
+  "description": "Stage 1 deliverables: logging middleware + notification backend",
+  "private": true,
+  "workspaces": [],
+  "scripts": {},
+  "license": "MIT"
+}

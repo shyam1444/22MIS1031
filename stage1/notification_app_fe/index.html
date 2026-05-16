@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Notification Priority Demo</title>
+    <style>body{font-family:Arial;padding:20px} .item{border-bottom:1px solid #ddd;padding:8px 0}</style>
+  </head>
+  <body>
+    <h1>Top Notifications (Demo)</h1>
+    <p>This is a static demo. Run the backend to get actual results.</p>
+    <div id="list">Loading sample data...</div>
+    <script>
+      const sample = [
+        { "Type":"Placement","Message":"Advanced Micro Devices Inc. hiring","Timestamp":"2026-04-22 17:49:42" },
+        { "Type":"Result","Message":"mid-sem","Timestamp":"2026-04-22 17:50:54" },
+        { "Type":"Event","Message":"farewell","Timestamp":"2026-04-22 17:51:06" }
+      ];
+      const list = document.getElementById('list');
+      list.innerHTML = sample.map(s => `<div class="item"><strong>${s.Type}</strong> — ${s.Message} <br/><small>${s.Timestamp}</small></div>`).join('');
+    </script>
+  </body>
+ </html>
