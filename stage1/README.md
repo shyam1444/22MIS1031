@@ -1,5 +1,3 @@
-# afford-logger
-
 Small reusable logging helper that posts structured logs to the test server.
 
 Usage
